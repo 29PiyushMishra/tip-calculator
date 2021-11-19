@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="/tip calculator 2.css">
+</head>
+<body>
+    <div id="main-box">
+       
+        <div id="bill-info">
+            <header>
+            <h3>TIP CALCULATOR</h3>
+            </header>
+            <p>Total bill amount ($):</p>
+            <input type="text" id="amount" placeholder="Amount"> 
+            <p>Select level of service to determine tip amount</p> 
+            <select name="service" id="service">
+                <option id="main-option" value="selectOption">-- Select a service level --</option>
+                <option value=".30">Outstanding - 30% tip</option>
+                <option value=".20">Good - 20% tip</option>
+                <option value=".15">Ok - 15% tip</option>
+                <option value=".10">Bad - 10% tip</option>
+                <option value=".05">Terrible - 5% tip</option>
+            </select>
+            <p>Number of people to split the bill between:</p>
+            <input  type="text" id="numOfPeople" placeholder="Number of people"> 
+            <br>
+            <button id="calculate" onclick="tipTotal()">Calculate</button>
+            <p id="placehold"></p>
+        </div>
+    </div>
+    <script src="/tip calculator2.js"></script>
+</body>
+</html>

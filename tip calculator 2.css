@@ -1,0 +1,51 @@
+body {
+    
+    background-color: rgb(31, 201, 231);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#main-box {
+    background-color: grey;
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 50%;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+header {
+    background-color: purple;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+#bill-info {
+    text-align: center;
+    background-color: grey;
+    border-radius: 16px;
+}
+
+#main-option {
+    color: rgb(169, 166, 170);
+}
+
+#calculate {
+    background-color: red;
+}
+#numOfPeople {
+    margin-bottom: 10px;
+}
+#placehold {
+    color: rgb(210, 255, 105);
+}
